@@ -94,3 +94,9 @@ img{
     0%   { background: rgb(238, 227, 75); }
     0% { background: rgb(18, 138, 122); }
   }
+
+  footer{
+      font-size:20px;
+      background-color: #ff7b52; 
+      border-radius: 10px;
+  }
