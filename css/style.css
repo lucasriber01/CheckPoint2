@@ -25,10 +25,9 @@ main{
     padding: 0 30%;
 }
 
-input:hover{
-    
-    animation: inputAnimation 0.1s;
-} 
+input:hover {
+    transform: scale(1.5);
+  }
 
 @keyframes inputAnimation{
     from{
@@ -87,8 +86,11 @@ footer{
     margin-top: 50px;
 }
 
+img{
+    animation: mymove 5s infinite;
+}
 
-
-
-
-  
+@keyframes mymove {
+    0%   { background: rgb(238, 227, 75); }
+    0% { background: rgb(18, 138, 122); }
+  }
